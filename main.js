@@ -1,3 +1,6 @@
+'use strict';
+console.log('hello, world!');
+
 jQuery(function(){
 
     function fadeIn()
