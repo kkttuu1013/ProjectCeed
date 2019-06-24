@@ -1,0 +1,370 @@
+body{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.top-padding{
+    padding: 5% 15% 5% 15%;
+}
+
+.responsiveImg{
+    width: 100%;
+}
+
+.whitediv{
+    background-color: white;
+}
+
+
+
+.right-half {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 40%;
+}
+
+.margin-zero{
+    margin: 0;
+    padding: 0;
+}
+.img-whitebar{
+    margin: 0px;
+}
+#leftHalf {
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
+
+.mgpdzero{
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#topPos{
+    width: 100%;
+}
+
+.sidepd{
+    padding: 0px  10% 6% 10%;
+}
+
+.sidepd2{
+    padding: 0% 10% 0% 10%;
+}
+
+
+.navbar
+{
+    border: 0 !important;
+}
+
+.containBtn{
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+
+#container {
+    position:relative;
+    display: block;
+}
+
+.column{
+    padding: 0;
+    margin: 0;
+}
+#mycontainer .container{
+    height: 50px; 
+}
+
+#img2 {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 61.5%;
+    top: 20%;
+}
+
+#img3 {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 1170px;
+    top: 15px;
+}
+
+#img4 {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 100%;
+    top: 15px;
+}
+
+.fixedTop{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+#toTop{
+    width: 12%;
+
+}
+
+#toTop:focus{
+    outline: none;
+}
+
+#toEA{
+    left: 11%;
+    width: 18.5%;
+}
+
+#gotoea{
+    position: absolute;
+    bottom: 29%;
+    left: 23.5%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#gotofree{
+    position: absolute;
+    bottom: 30%;
+    left: 60%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+
+#toEA:focus{
+    outline: none;
+}
+
+#toFree{
+    left: 28.5%;
+    width: 20%;
+}
+
+#toFree:focus{
+    outline: none;
+}
+
+#gotostream{
+    position: absolute;
+    bottom: 35%;
+    left: 26%;
+    font-size: 1.5vw;
+}
+
+#gotostream2{
+    position: absolute;
+    bottom: 15%;
+    left: 60%;
+    font-size: 1.4vw;
+}
+
+#toStream{
+    left: 47.8%;
+    width: 19.6%;
+}
+
+#toStream:focus{
+    outline: none;
+}
+
+#toLine{
+    left: 67.4%;
+    width: 11%;
+}
+
+#toLine:focus{
+    outline: none;
+}
+
+
+#toStart{
+    left: 78.3%;
+    width: 27.8%;
+}
+
+#toStart:focus{
+    outline: none;
+}
+
+.signal{
+    top: 1.5%;
+    left: 64%;
+    width: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .signal{top: 1%;}
+}
+
+div {
+    background-color: #F7F7F8;
+  }
+
+#myFooter {
+    background-color: #3c3d41;
+    color: white;  
+    
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 50%;
+}
+
+#myFooter .row {
+    margin-bottom: 0px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+    text-align: center;
+}
+
+#myFooter h5 {
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    width: 100%;
+    color: #d2d1d1;
+    text-decoration: none;
+    
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 10px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: 3c3d41;
+    background-color: F7F7F8;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    .sidepd{
+        padding: 0 0 6% 0;
+    }
+    .top-padding{
+        padding: 5% 0 5% 0;
+    }
+
+    #gotoea{
+        bottom: 29%;
+        left: 18%;
+        font-size: 2vw;
+    }
+
+    #gotostream{
+        position: absolute;
+        bottom: 35%;
+        left: 21%;
+        font-size: 2vw;
+    }
+
+
+}
+
+@media (max-width: 525px){
+    .containimg {
+        width: auto;
+        }
+    .insideimg{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.blackDiv{
+    background-color: #3c3d41;
+    font-size: 80%;
+}
+
+#ifcLogo{
+    height: auto;
+    width: 200px;
+    padding-right: 10px;
+    padding-left:  10px;
+    padding-top: 25px;
+}
+/* ============== */
+/*     footer     */
+/* ============== */
