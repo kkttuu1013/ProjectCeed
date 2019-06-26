@@ -25,4 +25,8 @@ app.get('/stream', function(req, res){
     res.render("stream");
 })
 
+app.get('/start', function(req, res){
+    res.render("start");
+})
+
 app.listen(8080);
