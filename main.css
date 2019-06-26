@@ -198,6 +198,23 @@ body{
     outline: none;
 }
 
+.videocontainer{
+    position: relative;
+    width: 100%;
+    padding-top: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.streamframe{
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    width: 1000px;
+    height: 500px;
+}
+
 .signal{
     top: 1.5%;
     left: 64%;
@@ -211,6 +228,10 @@ body{
 div {
     background-color: #F7F7F8;
   }
+
+#mycontainer{
+    width: 1920px;
+}
 
 #myFooter {
     background-color: #3c3d41;
@@ -265,6 +286,7 @@ div {
     width: 100%;
     color: #d2d1d1;
     text-decoration: none;
+    font-size: 15px;
     
 }
 
