@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 5000
+const cool = require('cool-ascii-faces')
 
 app.set('views', './views');
 app.set("view engine", "ejs");
@@ -17,6 +18,8 @@ app.get('/whatisea/', function(req, res){
 app.get('/free/', function(req, res){
     res.render("free")
 })
+
+app.get('/cool', (req, res)=> res.send(cool()));
 
 app.get('/privacypolicy', function(req, res){
     res.render("privacypolicy")
