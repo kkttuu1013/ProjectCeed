@@ -299,6 +299,13 @@ div {
     
 }
 
+#myFooter li{
+    width: 100%;
+    color: #d2d1d1;
+    text-decoration: none;
+    font-size: 15px;
+}
+
 #myFooter a:hover,
 #myFooter a:focus {
     text-decoration: none;
