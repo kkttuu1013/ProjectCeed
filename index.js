@@ -33,4 +33,9 @@ app.get('/start', function(req, res){
     res.render("start");
 })
 
+app.use(function(err, req, res, next){
+	res.status(500);
+	res.end('my 500 error! : ' + err);
+});
+
 app.listen(PORT);
