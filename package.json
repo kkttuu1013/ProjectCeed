@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kkttuu1013/ProjectCeed#readme",
   "keywords": [],
   "dependencies": {
-    "cool-ascii-faces": "^1.3.4"
+    "cool-ascii-faces": "^1.3.4",
+    "express": "^4.17.1"
   }
 }
