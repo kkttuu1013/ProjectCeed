@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 80
 const cool = require('cool-ascii-faces')
 
 app.set('views', './views');
@@ -33,4 +32,4 @@ app.get('/start', function(req, res){
     res.render("start");
 })
 
-app.listen(PORT, () => console.log('Listening on ${ PORT }'));
+app.listen();

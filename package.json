@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "micro",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,7 +13,8 @@
     "cool-ascii-faces": "^1.3.4",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "koa": "^2.7.0"
+    "koa": "^2.7.0",
+    "micro": "^9.3.4"
   },
   "devDependencies": {},
   "description": ""
