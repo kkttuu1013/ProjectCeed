@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const cool = require('cool-ascii-faces')
+const PORT = process.env.PORT || 3000;
 
 app.set('views', './views');
 app.set("view engine", "ejs");
@@ -32,4 +33,4 @@ app.get('/start', function(req, res){
     res.render("start");
 })
 
-app.listen();
+app.listen(PORT);
