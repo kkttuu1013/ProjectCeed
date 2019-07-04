@@ -2,9 +2,9 @@
   "name": "projectceed",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +19,11 @@
   "homepage": "https://github.com/kkttuu1013/ProjectCeed#readme",
   "keywords": [],
   "dependencies": {
+    "aws-sdk": "^2.485.0",
+    "body-parser": "^1.19.0",
     "cool-ascii-faces": "^1.3.4",
     "ejs": "^2.6.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
   }
 }

@@ -1,3 +1,5 @@
+/* global $ */
+
 jQuery(function(){
 
     function fadeIn()
@@ -33,7 +35,7 @@ $(document).on("click","#toTop",function(){
    $("html,body").animate({
         scrollTop : topPos // さっき変数に入れた位置まで
     }, {
-        queue : false　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
+        queue : false,　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
     });
 });
 
@@ -42,7 +44,7 @@ $(document).on("click",".btn-default",function(){
     $("html,body").animate({
          scrollTop : topPos // さっき変数に入れた位置まで
      }, {
-         queue : false　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
+         queue : false,　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
      });
  });
 
@@ -51,7 +53,7 @@ $(document).on("click","#toEA",function(){
     $("html,body").animate({
          scrollTop : eaPos // さっき変数に入れた位置まで
      }, {
-         queue : false　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
+         queue : false,　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
      });
  });
 
@@ -60,7 +62,7 @@ $(document).on("click","#toEA",function(){
     $("html,body").animate({
          scrollTop : freePos // さっき変数に入れた位置まで
      }, {
-         queue : false　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
+         queue : false,　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
      });
  });
 
@@ -69,7 +71,7 @@ $(document).on("click","#toEA",function(){
     $("html,body").animate({
          scrollTop : livePos // さっき変数に入れた位置まで
      }, {
-         queue : false　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
+         queue : false,　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
      });
  });
 
@@ -78,7 +80,7 @@ $(document).on("click","#toEA",function(){
     $("html,body").animate({
          scrollTop : linePos // さっき変数に入れた位置まで
      }, {
-         queue : false　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
+         queue : false,　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
      });
  });
 
@@ -87,7 +89,7 @@ $(document).on("click","#toEA",function(){
     $("html,body").animate({
          scrollTop : startPos // さっき変数に入れた位置まで
      }, {
-         queue : false　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
+         queue : false,　// どれくらい経過してから、アニメーションを始めるか。キュー[待ち行列]。falseを指定すると、キューに追加されずに即座にアニメーションを実行。
      });
  });
 

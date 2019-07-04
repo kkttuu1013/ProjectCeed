@@ -59,7 +59,14 @@ body{
 .sidepd3{
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
+
+.sidepd4{
+    padding: 0% 10% 0% 10%;
+}
+
+
 
 .addtoppd{
     padding-top: 5%;
@@ -86,8 +93,122 @@ body{
     padding: 0;
     margin: 0;
 }
+
+.skyblue{
+    color: #3D9BE9;
+}
+
+.wrapper {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+  }
+.wrapper2{
+    padding: 1.3em 1em;
+    margin: auto;
+    margin-top: 5%;
+    color: #2c2c2f;
+    background: #cde4ff;/*背景色*/
+    width: 100%;
+    height: 80px;
+    text-align: left;
+}
+
+.wrapper4 {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: center;
+    background: white;
+  }
+  
+ .wrapper5 {
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: center;
+    background: white;
+  }
+  
+  .wrapper6 {
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    background: white;
+  }
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.settocenter{
+    text-align: center;
+    background: white;
+    margin-bottom: 2em;
+    }
+
+.round {
+
+  border-radius: 50%;
+}
+
+.mgtop{
+    margin-top: 1em;
+}
+
+
+.txt{
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.txt1 {
+    display: inline-block;
+    text-align: center;
+    font-size: 2em;
+}
+
+.sidemg{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.size1{
+    font-size: 1.5em;
+}
+
+#link{
+    text-align: center;
+    background: white;
+    
+}
+
+.hr1{
+    height: 3px;
+}
+
+
+
+
+
 #mycontainer .container{
     height: 50px; 
+    width: 100px;
 }
 
 #img2 {
@@ -239,12 +360,13 @@ div {
   }
 
 #mycontainer{
-    width: 1920px;
+    width: 100%;
 }
 
 #myFooter {
     background-color: #3c3d41;
     color: white;  
+    width: 100%;
     
 }
 
@@ -258,6 +380,7 @@ div {
 
 #myFooter .row {
     margin-bottom: 0px;
+    width: 100%;
 }
 
 #myFooter .navbar-brand {
@@ -342,23 +465,70 @@ div {
 }
 
 #myFooter .btn {
-    color: 3c3d41;
-    background-color: F7F7F8;
+    color: #3c3d41;
+    background-color: #F7F7F8;
     border-radius: 20px;
     border: none;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 100px;
-    line-height: 25px;
+}
+
+#button_wrapper{
+    text-align: center;
+}
+
+#ifcLogo{
+    height: auto;
+    width: 200px;
+    padding-right: 10px;
+    padding-left:  10px;
+    padding-top: 25px;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    #myFooter .row {
+    margin-bottom: 0px;
+}
+    #image_wrapper{
+        text-align: center;
+    }
+    
+    #myFooter .btn{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    #toTop{
+        width: 100%;
+    }
+    #imgMain{
+        margin-top: 10%;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1000px){
+    .wrapper5 {
+        padding: 0px  20% 6% 20%;
+    }
 }
 
 @media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
     .sidepd{
-        padding: 0 0 6% 0;
+        padding: 0 0 20% 0;
     }
     .top-padding{
         padding: 5% 0 5% 0;
@@ -376,7 +546,31 @@ div {
         left: 21%;
         font-size: 2vw;
     }
+    
+     #gotofree{
+        position: absolute;
+        bottom: 7%;
+        left: 40%;
+        font-size: 3vw;
+    }
+    
+    #gotoea{
+        position: absolute;
+        bottom: 7%;
+        left: 40%;
+        font-size: 3vw;
+    }
+    
+    #gotostream{
+        position: absolute;
+        bottom: 7%;
+        left: 40%;
+        font-size: 3vw;
+    }
+    
 
+    
+    
 
 }
 
@@ -396,13 +590,7 @@ div {
     font-size: 80%;
 }
 
-#ifcLogo{
-    height: auto;
-    width: 200px;
-    padding-right: 10px;
-    padding-left:  10px;
-    padding-top: 25px;
-}
+
 /* ============== */
 /*     footer     */
 /* ============== */
